@@ -1,0 +1,21 @@
+{
+    "name": "paolodinotte/tool",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "paolodinotte\\Tool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paolo Di Notte",
+            "email": "dinotte.paolo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8",
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
