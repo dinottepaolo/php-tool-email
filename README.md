@@ -10,7 +10,7 @@ use paolodinotte\Tool\Tool;
 
 // Define SMPT credentials and configuration
 $emailConfiguration = array(
-    "host" => "smpthost",
+    "host" => "smtphost",
     "username" => "your smpt username",
     "password" => "your smpt password",
     "port" => smpt service port
