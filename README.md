@@ -8,11 +8,11 @@ This tool allows you to receive a report of each user's posts by email.
 ``` php
 use paolodinotte\Tool\Tool;
 
-// Define SMPT credentials and configuration
+// Define SMTP credentials and configuration
 $emailConfiguration = array(
-    "host" => "smtphost",
-    "username" => "your smpt username",
-    "password" => "your smpt password",
+    "host" => "SMTP host",
+    "username" => "your SMTP username",
+    "password" => "your SMTP password",
     "port" => smpt service port
 );
 
