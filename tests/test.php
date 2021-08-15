@@ -5,12 +5,12 @@ use paolodinotte\Tool\Tool;
 
 $emailConfiguration = array(
     "host" => "smtp.mailtrap.io",
-    "username" => "adbf55fb9fd823",
-    "password" => "f35a4965599436",
+    "username" => "USERNAME",
+    "password" => "PASSWORD",
     "port" => 2525
 );
 
-$sender = "test@mail.it";
+$sender = "sender@mail.tester";
 $senderName = "Tester";
 
 $subject = "Users' posts listing";
@@ -18,8 +18,8 @@ $subject = "Users' posts listing";
 $postsUpperLimit = 3;
 
 $recipients = array(
-	"dinotte.paolo@gmail.com",
-	"paolo2988@gmail.com"
+	"recipient1@mail.test",
+	"recipient2@mail.test"
 );
 
 $phpTool = new Tool($emailConfiguration);
